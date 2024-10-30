@@ -1,0 +1,113 @@
+.logichop-data-modal {
+	position: fixed;
+	top: 80px;
+	left: 100px;
+	width: 420px;
+	height: auto;
+	box-shadow: 2px 2px 5px rgb(0,0,0) !important;
+	z-index: 9999999;
+	background-color: rgba(0,0,0,.8) !important;
+	font-family: sans-serif !important;
+	color: rgb(255,255,255) !important;
+	overflow: hidden;
+}
+
+.logichop-data-modal header {
+	height: 35px;
+	margin: 0;
+	padding: 5px;
+	font-size: 16px !important;
+	line-height: 25px !important;
+	background-color: rgb(0,0,0) !important;
+	cursor: move;
+}
+
+.logichop-data-modal header .dashicons-marker {
+	color: rgb(26,238,206) !important;
+	padding-top: 2px;
+}
+
+.logichop-data-modal header .logichop-data-toggle {
+	color: rgba(255,255,255, .5) !important;
+	padding-top: 2px;
+	float: right;
+}
+.logichop-data-modal header .logichop-data-toggle:hover {
+	cursor: pointer;
+	color: rgb(26,238,206) !important;
+}
+
+.logichop-data-content {
+	height: 450px;
+	overflow: hidden;
+	border-bottom: 5px solid rgb(0,0,0) !important;
+	text-align: center;
+}
+
+.logichop-data-content-display {
+	height: 400px;
+	overflow: auto;
+}
+
+.logichop-clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.logichop-data-content form {
+	text-align: left;
+	padding: 10px 20px;
+}
+.logichop-data-content form div {
+	margin-bottom: 10px;
+	line-height: 1em !important;
+}
+.logichop-data-content form label {
+	display: inline-block;
+	font-size: 12px !important;
+	color: rgb(26,238,206) !important;
+	margin: 0;
+}
+.logichop-data-content form input {
+	width: 100%;
+	height: 30px;
+	border: 0;
+	font-size: 14px !important;
+	font-family: sans-serif !important;
+	margin: 0;
+	padding: 4px 10px;
+}
+.logichop-data-content form textarea {
+ width: 100%;
+ border: 0;
+ font-size: 14px !important;
+ font-family: sans-serif !important;
+ margin: 0;
+ padding: 4px 10px;
+}
+
+.logichop-data-content form input,
+.logichop-data-content form textarea {
+		background: rgb(80,80,80) !important;
+}
+
+.logichop-data-content form input.active,
+.logichop-data-content form textarea.active {
+		background: rgb(255,255,255) !important;
+		color: #000 !important;
+}
+
+.logichop-data-submit {
+	margin: 5px auto 0;
+	padding: 5px 20px;
+	border-radius: 0;
+	font-size: 12px !important;
+	color: rgb(0,0,0) !important;
+	background: rgb(26,238,206) !important;
+	display: inline;
+}
+.logichop-data-submit:hover {
+	color: rgb(0,0,0) !important;
+	background: rgba(26,238,206,.8) !important;
+}

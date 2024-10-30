@@ -1,0 +1,7 @@
+.logichop-ajax-loading {
+	background-color: #fff !important;
+    background-image: url(loading.gif) !important;
+    background-size: 22px 22px !important;
+    background-position: right center !important;
+    background-repeat: no-repeat !important;
+}

@@ -1,0 +1,81 @@
+.logichop-widget { display: none; } .logichop-condition { display: none; } .logichop-slide-down { display: none; } .logichop-fade-in { opacity: 0; }
+
+.logichop-render-hide {
+  opacity: 0 !important;
+}
+
+.logichop-logic-bar {
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+	width: 100%;
+	padding: 20px 20px;
+	background: #2fd6e2;
+	color: #000;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.10);
+}
+.logichop-logic-bar.logic-bar-hide,
+.logichop-logic-bar-screen-block.logic-bar-hide {
+  display: none;
+}
+.logichop-logic-bar.logic-bar-no-shadow {
+  box-shadow: none;
+}
+.logichop-logic-bar.logic-bar-not-sticky {
+  position: absolute;
+}
+.logichop-logic-bar a {
+	padding: 5px 10px;
+	margin: 0 10px;
+	background: #026087;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.logichop-logic-bar a:hover {
+	opacity: 0.8;
+}
+.logic-bar-close {
+	color: rgb(150,150,150);
+  font-family: sans-serif;
+  font-weight: bold;
+	font-size: 12px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  opacity: 0.5;
+}
+.logic-bar-close:hover {
+  opacity: 0.8;
+	cursor: pointer;
+}
+body.admin-bar .logichop-logic-bar {
+  top: 32px;
+}
+.logichop-logic-bar-screen-block {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99998;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.60);
+}
+
+.logichop-logic-bar.logichop-logic-bar-popup,
+body.admin-bar .logichop-logic-bar.logichop-logic-bar-popup  {
+  position: fixed;
+	width: 600px;
+  max-width: 80%;
+  top: 20%;
+  left:50%;
+  transform: translateX(-50%);
+}

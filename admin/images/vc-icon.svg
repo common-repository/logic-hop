@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<title>Row</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Row">
+		<path id="Rectangle" class="st0" d="M5,0h22c2.8,0,5,2.2,5,5v22c0,2.8-2.2,5-5,5H5c-2.8,0-5-2.2-5-5V5C0,2.2,2.2,0,5,0z"/>
+	</g>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="8.8321" y1="3.9395" x2="23.1679" y2="28.7697">
+	<stop  offset="0" style="stop-color:#00EFC8"/>
+	<stop  offset="1" style="stop-color:#00D1E7"/>
+</linearGradient>
+<path class="st1" d="M16,2C8.1,2,1.7,8.4,1.7,16.4c0,7.9,6.4,14.3,14.3,14.3c7.9,0,14.3-6.4,14.3-14.3C30.3,8.4,23.9,2,16,2z M16,26
+	c-5.3,0-9.6-4.3-9.6-9.6s4.3-9.6,9.6-9.6c5.3,0,9.6,4.3,9.6,9.6S21.3,26,16,26z"/>
+</svg>

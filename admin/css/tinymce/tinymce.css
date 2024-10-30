@@ -1,0 +1,29 @@
+body#tinymce.wp-editor logichop-if,
+body#tinymce.wp-editor logichop-else,
+body#tinymce.wp-editor logichop-elseif,
+body#tinymce.wp-editor logichop-endif,
+body#tinymce.wp-editor logichop-var {
+    font-size: 14px;
+    padding: 3px 10px;
+    margin: 0 5px 0 0;
+    border-left: 10px solid rgba(26,238,206,1.0);
+    border-right: 2px solid rgba(26,238,206,1.0);
+	background: rgba(26,238,206,0.25);
+}
+body#tinymce.wp-editor logichop-else,
+body#tinymce.wp-editor logichop-elseif,
+body#tinymce.wp-editor logichop-endif { 
+    margin: 0 5px 0 5px;
+    border-left: 2px solid rgba(26,238,206,1.0);
+    border-right: 2px solid rgba(26,238,206,1.0);
+}
+body#tinymce.wp-editor logichop-endif { 
+    margin: 0 0 0 5px;
+    border-left: 2px solid rgba(26,238,206,1.0);
+    border-right: 10px solid rgba(26,238,206,1.0);
+}
+body#tinymce.wp-editor logichop-var { 
+   	margin: 0;
+   	border-left: 5px solid rgba(26,238,206,1.0);
+   	border-right: 5px solid rgba(26,238,206,1.0);
+}
